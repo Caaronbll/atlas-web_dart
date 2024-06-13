@@ -1,1 +1,1 @@
-# Learning to basics in dart language
+# Learning the basics in dart language
