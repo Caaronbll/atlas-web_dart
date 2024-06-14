@@ -4,7 +4,7 @@ void outer(String name, String id) {
     List<String> fullNameList = name.split(' ');
     String firstName = fullNameList[0];
     String lastName = fullNameList[1];
-    String alias = lastName[0] + '. ' + firstName;
+    String alias = lastName[0] + '.' + firstName;
     return 'Hello Agent $alias your id is $id';
   }
 
