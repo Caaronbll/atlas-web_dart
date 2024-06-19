@@ -6,10 +6,8 @@ class User extends Password {
   int age;
   double height;
 
-  User({required this.id, required this.name, required this.age, required this.height, String? user_password
-  })
+  User({required this.id, required this.name, required this.age, required this.height})
     
- 
   
   Map toJson() {
     return {
