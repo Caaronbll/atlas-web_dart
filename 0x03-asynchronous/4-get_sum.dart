@@ -10,8 +10,8 @@ Future<num> calculateTotal() async {
 
     double total = 0.0;
 
-    for (var order in orderList) {
-      String price = await fetchProductPrice(order);
+    for (var product in orderList) {
+      String price = await fetchProductPrice(product);
       double productPrice = jsonDecode(price);
       total += productPrice;
     }
